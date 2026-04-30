@@ -249,22 +249,7 @@ st.caption("ANIMA TESTIS • Real MGE+ Ξ Geometry • The Quadratic • NACO 20
             answers = {"Q1": q1, "Q2": q2, "Q3": q3}
             save_testimony("VC Professional", answers, personal_testimony, result)
 
-    # ====================== TAB 4: Angel Investor ======================
-    with tab4:
-        st.write("**Angel Investor**")
-        q1 = st.text_area("Think of someone you deeply trust in business. What specifically made you trust them?", height=100, key="angel_q1")
-        q2 = st.text_area("What would make you immediately walk away from an opportunity, even if everything else looked strong?", height=100, key="angel_q2")
-        q3 = st.text_area("Describe a founder relationship you found especially rewarding. What made it work so well?", height=100, key="angel_q3")
-        st.markdown("**Additional Personal Testimony (optional)**")
-        personal_testimony = st.text_area("", height=200, key="angel_personal")
-        if st.button("Analyze Basin →", key="angel_btn", type="primary"):
-            result = analyze_testimony("Angel Investor", q1, q2, q3, personal_testimony)
-            st.markdown(result["llm_analysis"])
-            show_geometry(result["geometry"])
-            answers = {"Q1": q1, "Q2": q2, "Q3": q3}
-            save_testimony("Angel Investor", answers, personal_testimony, result)
-
-    # ====================== COLLECT & MATCH ======================
+    # Collect & Match section (unchanged)
     st.markdown("---")
     st.subheader("Collect & Match")
     if st.button("Run Global Matching", type="primary"):
@@ -282,4 +267,4 @@ st.caption("ANIMA TESTIS • Real MGE+ Ξ Geometry • The Quadratic • NACO 20
         else:
             st.info("No testimonies saved yet.")
 
-st.caption("ANIMA TESTIS • Real MGE+ Ξ Geometry • The Quadratic • NACO 2026")
+st.caption("ANIMA TESTIS - Real MGE+ Xi Geometry - The Quadratic - NACO 2026")
