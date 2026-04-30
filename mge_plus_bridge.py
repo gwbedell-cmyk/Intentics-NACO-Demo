@@ -51,6 +51,31 @@ class MGEPlusBridge:
         xi = self.xi_m(s)
         dist = self.basin_distance(s)
         normalized_score = np.clip(1.0 / (1.0 + xi), 0.0, 1.0)
+
+        return {
+            "moral_vector": s.tolist(),
+            "xi_m": float(xi),
+            "basin_distance_to_alpha_U": float(dist),
+            "coherence_score": float(normalized_score),
+            "is_in_ubuntu_basin": bool(dist < 0.25),      # ← fixed
+            "timestamp": datetime.now().isoformat()
+        }        return s.astype(np.float32)
+
+    def xi_m(self, s: np.ndarray) -> float:
+        s = np.asarray(s, dtype=np.float64).reshape(-1)
+        n = len(s)
+        mat = np.diag(s) - np.outer(s, s) + self.eps * np.eye(n)
+        det_val = np.linalg.det(mat)
+        return -np.log(np.abs(det_val) + 1e-12)
+
+    def basin_distance(self, s: np.ndarray) -> float:
+        return np.linalg.norm(s - self.alpha_U)
+
+    def compute_real_coherence(self, text: str) -> Dict:
+        s = self.text_to_moral_vector(text)
+        xi = self.xi_m(s)
+        dist = self.basin_distance(s)
+        normalized_score = np.clip(1.0 / (1.0 + xi), 0.0, 1.0)
         return {
             "moral_vector": s.tolist(),
             "xi_m": float(xi),
