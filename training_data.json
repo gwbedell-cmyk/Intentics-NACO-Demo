@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Whether humans and AI agents can collaborate rather than AI being merely a tool. I believe this is an existential question for the human race. I wanted to be happy. I'm still working on it. Nelson Mandela. He showed me how to forgive, how to be both spiritual and powerful. Most important he demonstrated that leading often meant making unpopular compromises. I’m building something I believe the AI industry is missing—a governance layer that ensures AI systems act according to verified intent, not just instructions. I come at this from an unconventional path. My background isn’t technical—I’ve worked in complex, high-stakes environments where understanding intent matters more than what’s said on the surface. Over the past six months, working closely with multiple AI systems, I translated that experience into structured frameworks that allow human judgment—values, constraints, and decision patterns—to be expressed in a form AI can act on. That work led to what we call a system for making intent computable and usable in real time. From that, we built a layer that governs how AI systems execute decisions—ensuring that actions are aligned, constrained, and consistent over time. The opportunity is clear: as AI becomes more autonomous, the real risk isn’t capability—it’s misalignment in execution. That’s the problem I’m solving. I’m looking for partners who see that this is not just a feature—it’s a missing layer in how intelligent systems operate. And I’m practical about building it. If strengthening the company means evolving my role, I’m open to that. My focus is making sure this gets built and deployed correctly.",
+    "target_s": [0.38, 0.29, 0.23, 0.10]
+  },
+  {
+    "text": "I’ve spent my whole life trying to bridge impossible gaps. I believe AI can be more than a tool — it can be a true partner if we give it real human intent to work with. I wanted to be someone who builds bridges between people and technology. My grandfather, who was a storyteller, taught me that the most powerful thing is to make people feel seen. I’m trying to build systems that make intent visible and respected.",
+    "target_s": [0.35, 0.32, 0.25, 0.08]
+  },
+  {
+    "text": "I obsess over how to make AI safe without making it stupid. I wanted to be a scientist who helped solve big human problems. My mother showed me that kindness and rigor can coexist. I believe alignment is about geometry, not just rules.",
+    "target_s": [0.33, 0.30, 0.27, 0.10]
+  },
+  {
+    "text": "The tension between rapid innovation and moral responsibility keeps me awake. I wanted to be a leader who brings people together. Nelson Mandela taught me that real power is in forgiveness and vision. I’m building the missing governance layer for agentic AI.",
+    "target_s": [0.37, 0.28, 0.24, 0.11]
+  },
+  {
+    "text": "I worry about AI making decisions without understanding human values. I wanted to be an inventor who improves people’s lives. My first mentor taught me that listening is the highest form of intelligence. I’m translating lived experience into mathematical intent.",
+    "target_s": [0.34, 0.31, 0.26, 0.09]
+  },
+  {
+    "text": "How do we keep AI aligned as it becomes more autonomous? I wanted to be someone who creates lasting positive change. My grandmother taught me that wisdom comes from patience and story. I’m building Intentics so machines can respect human intent.",
+    "target_s": [0.36, 0.29, 0.25, 0.10]
+  },
+  {
+    "text": "Building a team is hard enough. Adding AI agents that can actually understand our values and stay coherent with us is the next big challenge. I wanted to be a founder who builds great teams. My co-founder taught me that conflict is data, not drama. I want AI agents that feel like real teammates.",
+    "target_s": [0.32, 0.33, 0.26, 0.09]
+  },
+  {
+    "text": "We’ve had real tension when AI agents misinterpreted what we meant. I wanted to create a company where people thrive. A past failure taught me that clarity of intent is everything. We need a better way to align human and AI intent.",
+    "target_s": [0.31, 0.30, 0.28, 0.11]
+  },
+  {
+    "text": "Scaling the team while keeping our values intact is the big challenge. I wanted to build something meaningful with others. My team taught me that trust is built through consistent action. I’m looking for tools that help AI stay coherent with us.",
+    "target_s": [0.34, 0.29, 0.27, 0.10]
+  },
+  {
+    "text": "The tension between speed and alignment is constant. I wanted to be a leader who brings out the best in people. A mentor showed me that good teams resolve conflict quickly. We need AI that respects our team’s values.",
+    "target_s": [0.33, 0.31, 0.25, 0.11]
+  },
+  {
+    "text": "Keeping everyone on the same page as we add AI is hard. I wanted to build a company that feels like family. My team taught me that transparency builds trust. I want AI agents that understand our culture.",
+    "target_s": [0.35, 0.28, 0.26, 0.11]
+  },
+  {
+    "text": "I’ve passed on many companies because something felt off about the founder’s intent. I wanted to back founders who build lasting value. A bad investment taught me to trust my gut on alignment. I need better tools to evaluate founder coherence.",
+    "target_s": [0.29, 0.34, 0.27, 0.10]
+  },
+  {
+    "text": "The best investments are when the founder’s values match the execution. I wanted to fund companies that make the world better. Experience showed me that culture fit is everything. I’m looking for signals of deep intent alignment.",
+    "target_s": [0.31, 0.33, 0.26, 0.10]
+  },
+  {
+    "text": "I want to see how founders think about AI governance early. I wanted to be an investor who spots real moats. A successful exit taught me that team alignment wins. I’m interested in geometric approaches to alignment.",
+    "target_s": [0.30, 0.32, 0.28, 0.10]
+  },
+  {
+    "text": "Many founders have great ideas but weak execution discipline. I wanted to back people with real conviction. I’ve learned to watch how founders handle conflict. I need better ways to measure founder intent.",
+    "target_s": [0.28, 0.30, 0.29, 0.13]
+  },
+  {
+    "text": "The gap between pitch and reality is the biggest risk. I wanted to fund the next generation of important companies. A mentor taught me to bet on character over credentials. I’m looking for tools that reveal true founder values.",
+    "target_s": [0.32, 0.31, 0.27, 0.10]
+  },
+  {
+    "text": "I invest in people I trust deeply. I wanted to help founders I believe in. A past success showed me that values matter more than the plan. I want to see real intent, not just a pitch.",
+    "target_s": [0.36, 0.29, 0.25, 0.10]
+  },
+  {
+    "text": "The founders I trust most have clear moral compasses. I wanted to back people who build with purpose. Experience taught me that integrity shows up in small things. I’m looking for signals of long-term alignment.",
+    "target_s": [0.34, 0.31, 0.26, 0.09]
+  },
+  {
+    "text": "I walk away when I don’t feel the founder’s conviction. I wanted to help build companies that last. A great founder relationship taught me the power of shared values. I need better ways to evaluate founder intent.",
+    "target_s": [0.33, 0.30, 0.27, 0.10]
+  },
+  {
+    "text": "The most rewarding investments are when the founder’s story matches the product. I wanted to back people who care deeply. My first big win showed me that passion and execution matter. I’m interested in new frameworks for human-AI alignment.",
+    "target_s": [0.35, 0.28, 0.26, 0.11]
+  },
+  {
+    "text": "I trust founders who are honest about their gaps. I wanted to help build the future responsibly. A mentor taught me that vulnerability builds trust. I’m interested in new frameworks for human-AI alignment.",
+    "target_s": [0.37, 0.29, 0.24, 0.10]
+  }
+]
