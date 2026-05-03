@@ -75,7 +75,7 @@ class MGEPlusBridge:
         s_shared = 0.5 * (s_f + s_i)
         s_shared = s_shared / (np.sum(s_shared) + 1e-12)
         xi = self.xi_m(s_shared)
-        coherence = 1.0 / (1.0 + xi * 0.7)
+        coherence = 1.0 / (1.0 + xi * 0.1)
         score = int(round(100 * coherence))
         return {
             "score": score,
@@ -147,7 +147,7 @@ class MGEPlusBridge:
         s_shared_new = 0.5 * (s_f_adjusted + s_i_adjusted)
         s_shared_new = s_shared_new / (np.sum(s_shared_new) + 1e-12)
         xi_new = self.xi_m(s_shared_new)
-        coherence_new = 1.0 / (1.0 + xi_new * 0.7)
+        coherence_new = 1.0 / (1.0 + xi_new * 0.1)
         return int(round(100 * coherence_new))
 
     def run_dual_analysis(self, founder_text, investor_text):
