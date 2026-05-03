@@ -139,7 +139,7 @@ class MGEPlusBridge:
     def compute_improved_score(self, s_f, s_i, gap_idx):
         s_f_adjusted = s_f.copy()
         s_i_adjusted = s_i.copy()
-        step = 0.60
+        step = 0.30
         s_f_adjusted[gap_idx] = s_f[gap_idx] + step * (self.alpha_U[gap_idx] - s_f[gap_idx])
         s_i_adjusted[gap_idx] = s_i[gap_idx] + step * (self.alpha_U[gap_idx] - s_i[gap_idx])
         s_f_adjusted = s_f_adjusted / np.sum(s_f_adjusted)
